@@ -1,6 +1,6 @@
 # note YouTube link formatter
 
-[メインのサイト]()
+[作ったサイト](https://suzuyuyuyu.github.io/note-youtube-link-formatter/)
 
 ## Overview
 
@@ -10,7 +10,7 @@ YouTubeのリンクをnoteに貼る際に、配信のリンクだと埋め込ま
 
 ## Usage
 
-上の[リンク]()にアクセスしてコピペするだけです。
+上の[リンク](https://suzuyuyuyu.github.io/note-youtube-link-formatter/)にアクセスしてコピペするだけです。
 
 > [!IMPORTANT]
 > - とりあえずで作ったのでYouTube以外を貼り付けたときの挙動は未定義。
