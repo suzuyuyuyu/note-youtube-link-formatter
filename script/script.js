@@ -28,7 +28,7 @@ function processText() {
         console.log("text_temp: " + text_temp);
         textOut = "https://m.youtube.com/watch?v=" + text_temp;
     }else{
-        text_temp = "Invalid URL";
+        textOut = "Invalid URL";
     }
     document.getElementById("outputText").value = textOut;
 }
