@@ -14,7 +14,6 @@ body {
 textarea {
     font-family: inherit;
     resize: vertical;
-    max-height: 30vh;
     font-size: 13px;
     line-height: 15px;
 }
@@ -35,29 +34,29 @@ header {
 
 /* **************************************** */
 
-footer {
-    width: 100%;
-    height: 5vh;
-    bottom: 0;
-    position: fixed;
+/* footer { */
+    /* width: 100%; */
+    /* height: 5vh; */
+    /* bottom: 0; */
+    /* position: fixed; */
     /* display: inline-block; */
-    display: flex;
-}
-
-.footer-list {
-    padding: auto;
+    /* display: flex; */
+/* } */
+/*  */
+/* .footer-list { */
+    /* padding: auto; */
     /* padding-top: 5px; */
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.footer-list li {
-    align-items: baseline;
-    display: inline-block;
-    padding: 0 5px;
-    list-style: none;
-}
+    /* position: absolute; */
+    /* top: 50%; */
+    /* transform: translateY(-50%); */
+/* } */
+/*  */
+/* .footer-list li { */
+    /* align-items: baseline; */
+    /* display: inline-block; */
+    /* padding: 0 5px; */
+    /* list-style: none; */
+/* } */
 
 
 /* **************************************** */
@@ -65,37 +64,31 @@ footer {
 .main {
     padding: 8vh 0;
     background-color: #ffffff;
-    display: flex;
     width: 100%;
 }
 
 /* **************************************** */
 
-.processButton {
-    margin-left: auto;
-}
-.processDeleteButton {
-    margin-right: auto;
-}
+
 
 /* **************************************** */
-
-.inputTitle, .outputTitle {
-    padding: 10px 0;
-}
-
-.processTitle {
-    padding: 10px 0;
-}
-.processElement {
-    display: flex;
-}
-.processRadio {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-}
-
+/*  */
+/* .inputTitle, .outputTitle { */
+    /* padding: 10px 0; */
+/* } */
+/*  */
+/* .processTitle { */
+    /* padding: 10px 0; */
+/* } */
+/* .processElement { */
+    /* display: flex; */
+/* } */
+/* .processRadio { */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* text-align: left; */
+/* } */
+/*  */
 /* **************************************** */
 
 #copiedLabelDummy, #copiedLabel {
@@ -109,13 +102,12 @@ footer {
 #inputDiv, #outputDiv {
     text-align: center;
     height: auto;
-    width: 50%;
+    width: 100%;
     margin-top: 10px;
     background-color: #ffffff;
 }
 
 #inputDiv {
-    margin-left: 10px;
     padding-bottom: 5px;
     border: 1px solid #238636;
     border-radius: 4px 0 0 4px;
